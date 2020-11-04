@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Syne+Mono&display=swap');
+
+body {
+    background: #093009;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.quotes {
+    padding: 30px;
+}
+.quote {
+    font-size: 30px;
+    font-family: 'Syne Mono', monospace;
+}
+
+.author {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 18px;
+}
